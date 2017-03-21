@@ -1,8 +1,7 @@
 # ejercicio-frutas
 PASOS PARA REALIZAR LA PÁGINA
 ---
-1. Di formato estético al html. Haciendo un breve bosquejo de como quería que quedara mi página. 
-Inserté una lista <ol> con tres frutas y creé un formulario donde el usuario puede escribir el nombre de la fruta que desee indexar, junto con el formulario cree un boton que llamará a la función nuevasFrutas() y con ello pudiera ejecutarse la acción de enlistar nuevos elementos.
+1. Formato estético al html: Primero hice un breve bosquejo de como quería que quedara mi página, inserté estilos, importe letras y esas cosas. Después inserté una lista <ol> con tres frutas y creé un formulario donde el usuario pueda escribir el nombre de la fruta que desee indexar, junto con ello, cree un boton que llama a la función nuevasFrutas(), misma que se encarga de realizar la acción de indexar cada elemento que se escriba en el input tipo texto.
 ---
 2. En Javascript: Primero investigué mucho al respecto de como sobreescribir el html reiteradas veces, lo intente con un for, con innerHTML, con condicionales y al final encontre que html reconoce los tipos de texto nodo. Así que dentro de la función nuevasFrutas(); coloqué lo siguiente. 
 ---
